@@ -1,0 +1,46 @@
+header {
+	padding-top: 20px;
+}
+#current-word {
+	letter-spacing: 10px;
+}
+#hangman {
+	height: 400px;
+	width: 400px;
+}
+
+
+.jumbotron{
+	color: #4d4d4d;
+	background-color: white;
+	font-family: 'Russo One', sans-serif;
+
+}
+
+body{
+	background-color: #4d4d4d;
+}
+
+.heroes{
+	padding-left: 80px;
+	
+}
+
+.game-section {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+
+h3{
+	color: orange;
+}
+
+strong{
+	color: orange;
+	font-family: 'Russo One', sans-serif;
+}
+
+.container{
+	background-color: orange;
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Hangman</title>
+
+ 
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+<link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet">
+
+</head>
+
+
+<body>
+  
+ 
+  <div class="container">
+   
+    <div class="jumbotron">
+      <div class="container">
+        <h1>Overwatch Heroes Hangman
+         </h1>
+        <h2>Guess the name of characters from Overwatch!</h2> 
+        <p>Be A Hero</p>
+      </div>
+    </div>
+
+    <div class="heroes">
+    <img src="./assets/images/overwatch.jpg">
+  </div>
+
+  
+    <div class="row">
+      <div class="col-lg-12">
+
+        
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h3 class="panel-title"><strong>Can you be a hero!</strong></h3>
+          </div>
+          <div class="panel-body">
+            
+            <h3 id="wordblanks">_ _ _ _ _ _ _ _ _ </h3>
+          </div>
+        </div>
+
+        
+        <div class="panel panel-default">
+          <div class="panel-body">
+
+           
+            <strong>Imagination Is The Essance Of Discovery :</strong> <span id="wrongGuesses"></span>
+          </div>
+        </div>
+
+        
+        <div class="panel panel-default">
+          <div class="panel-body">
+
+            
+            <strong>Heroes Never Die : </strong> <span id="guessesLeft">9</span>
+          </div>
+        </div>
+
+       
+        <div class="panel panel-default">
+          <div class="panel-body">
+
+           
+            <strong>Ive Got You In My Sights :</strong> <span id="winCounter">0</span>
+          </div>
+        </div>
+
+       
+        <div class="panel panel-default">
+          <div class="panel-body">
+
+          
+            <strong>With Every Death Comes Honor, With Honor, Redemption :</strong> <span id="lossCounter">0</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
+  <script src='assets/javascript/game.js'></script>
+</body>
+</html>
